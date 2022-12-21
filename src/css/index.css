@@ -271,6 +271,19 @@ nav ul li {
   cursor: pointer;
 }
 
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+
+.socicon {
+  width: 2rem;
+  height: 2rem;
+}
+
 /* Scroll to top button */
 .scroll-up {
   position: fixed;
