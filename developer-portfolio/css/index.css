@@ -27,6 +27,23 @@ html {
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+body {
+  font-family: var(--font-family);
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -69,19 +86,6 @@ nav ul li {
   background-color: transparent;
   cursor: pointer;
   display: none;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-a:hover {
-  color: var(--secondary-color);
 }
 
 .hero {
@@ -127,8 +131,4 @@ a:hover {
 .more-about p {
   line-height: var(--line-height);
   padding: 0.4rem;
-}
-
-body {
-  font-family: var(--font-family);
 }
